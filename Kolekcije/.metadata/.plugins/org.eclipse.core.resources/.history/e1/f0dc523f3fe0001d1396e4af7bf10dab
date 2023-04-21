@@ -1,0 +1,22 @@
+package kostana.maksic;
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		LinkedList<String> al = new LinkedList<String>();
+		
+		al.add("Zarko");
+		al.add("Marko");
+		al.add("Nina");
+		al.add("Bosa");
+		
+		Iterator<String> itr = al.iterator();
+		
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+}

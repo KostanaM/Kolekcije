@@ -1,0 +1,20 @@
+package kostana.maksic;
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		LinkedList<String> al = new LinkedList<String>();
+		
+		al.add("Zarko");
+		al.add("Marko");
+		al.add("Nina");
+		al.add("Bosa");
+
+		System.out.println(al);
+		System.out.println(al.remove(2));
+		System.out.println(al.getLast());
+		}
+}
